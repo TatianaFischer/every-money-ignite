@@ -1,8 +1,25 @@
 
+import { useEffect } from "react";
+import { api } from "../../services/api";
 import { Container } from "./styles"
 
 
 export function TransactionsTable() {
+
+//testando com fetch
+//   useEffect(() => {
+//     fetch('http://localhost:3000/apiTest/transactions')
+//       .then(response => response.json())
+//       .then(data => console.log(data))
+// }, []);
+
+//axios
+  useEffect(() => {
+    api.get('transactions')
+    .then(response => console.log(response.data))
+}, []);
+
+
   return (
     <Container>
       <table>
