@@ -8,6 +8,7 @@ createServer({
   //para conectar as duas rotas (get e post)
   //usar o banco de dados interno do Miragejs
   //schema é o banco de dados
+ //aula chapter II - modulo 4 - Inserindo transação na API - rever.
 
   models: {
     transaction: Model,
