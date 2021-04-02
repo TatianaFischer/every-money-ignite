@@ -28,7 +28,7 @@ seeds(server) {
       {
         id: 2,
         title: 'Aluguel',
-        type: 'withdrawt',
+        type: 'withdraw',
         category: 'Despesa fixa',
         amount: 1100,
         createdAt: new Date('2021-02-01 11:00:00'),        
