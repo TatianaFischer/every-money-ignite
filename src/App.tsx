@@ -4,7 +4,7 @@ import { Dashboard } from "./components/Dashboard";
 import {GlobalStyle} from "./styles/global"
 import React, { useState } from 'react';
 import { NewTransactionModal } from './components/NewTransactionModal';
-import { TransactionsProvider } from './TransactionsContext';
+import { TransactionsProvider } from './hooks/useTransactions';
 
 //acessibilidade do react-modal:
 Modal.setAppElement('#root');
