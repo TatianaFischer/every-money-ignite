@@ -22,7 +22,7 @@ div {
     display: block;
     font-weight: 500;
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 3rem;
   }
 
