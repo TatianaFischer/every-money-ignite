@@ -25,7 +25,7 @@ This applications is an personal finance manager.
 * Add new cash inflow
 * Calculate total expenses
 * Calculate total entries
-* * Calculate your total balance
+* Calculate your total balance
 List all registered cash transactions
 * Registration dates
 
